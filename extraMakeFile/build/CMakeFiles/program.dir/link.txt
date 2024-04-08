@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/program.dir/main.c.o CMakeFiles/program.dir/extra1.c.o CMakeFiles/program.dir/extra2.c.o CMakeFiles/program.dir/extra3.c.o -o program 

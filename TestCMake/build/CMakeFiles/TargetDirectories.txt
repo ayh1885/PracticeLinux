@@ -1,0 +1,3 @@
+/home/ayh1885/TestCMake/build/CMakeFiles/program.dir
+/home/ayh1885/TestCMake/build/CMakeFiles/edit_cache.dir
+/home/ayh1885/TestCMake/build/CMakeFiles/rebuild_cache.dir

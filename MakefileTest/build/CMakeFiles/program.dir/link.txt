@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/program.dir/Folder1/main.c.o CMakeFiles/program.dir/Folder2/extra1.c.o CMakeFiles/program.dir/Folder3/extra2.c.o CMakeFiles/program.dir/Folder4/extra3.c.o -o program 

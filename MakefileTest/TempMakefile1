@@ -1,0 +1,30 @@
+
+# Makefile
+
+# 컴파일러 설정
+CC = gcc
+
+# 컴파일 옵션 설정
+CFLAGS = -Wall -Wextra -I.
+
+# 빌드 대상 파일
+TARGET = main.out
+
+# 소스 파일들
+SRCS = Folder1/main.c Folder2/extra1.c Folder3/extra2.c Folder4/extra3.c
+
+# Object 파일들 (소스 파일들을 컴파일해서 생성)
+OBJS = $(SRCS:.c=.o)
+
+# 빌드 규칙
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $^
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
+# clean 규칙 (빌드 중간 파일들 삭제)
+clean:
+	rm -f $(OBJS) $(TARGET)
