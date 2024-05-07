@@ -1,4 +1,6 @@
 
+#include <stdio.h>
+#include "extra3.h"
 
 int g_extra3 = 300;
 
